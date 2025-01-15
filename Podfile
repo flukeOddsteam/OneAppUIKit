@@ -20,10 +20,6 @@ target 'OneAppUIKit' do
   pod 'HyperioniOS/SlowAnimations'
   pod 'OneAppDesignSystem', '11.5.0'
 
-  target 'OneAppiOSUIKitTests' do
-    # Pods for testing
-  end
-
   target 'OneAppUIKitTests' do
     inherit! :search_paths
     # Pods for testing
@@ -33,10 +29,6 @@ target 'OneAppUIKit' do
     # Pods for testing
   end
 
-  target 'OneAppiOSUIKit' do
-    # Pods for headder  
-  end
-
 end
 
 post_install do |installer|
@@ -44,15 +36,6 @@ post_install do |installer|
     target.build_configurations.each do |config|
       config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
       config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
-    end
-    if target.name == 'BoringSSL-GRPC'
-      target.source_build_phase.files.each do |file|
-        if file.settings && file.settings['COMPILER_FLAGS']
-          flags = file.settings['COMPILER_FLAGS'].split
-          flags.reject! { |flag| flag == '-GCC_WARN_INHIBIT_ALL_WARNINGS' }
-          file.settings['COMPILER_FLAGS'] = flags.join(' ')
-        end
-      end
     end
   end
 end

@@ -1,0 +1,51 @@
+PODS:
+  - HyperioniOS/AttributesInspector (1.2.0):
+    - HyperioniOS/Core
+  - HyperioniOS/Core (1.2.0)
+  - HyperioniOS/Measurements (1.2.0):
+    - HyperioniOS/Core
+  - HyperioniOS/SlowAnimations (1.2.0):
+    - HyperioniOS/Core
+  - IQKeyboardManagerSwift (6.5.16)
+  - Kingfisher (6.3.1)
+  - lottie-ios (3.4.4)
+  - OneAppDesignSystem (11.5.0):
+    - OneAppDesignSystem/Lib (= 11.5.0)
+  - OneAppDesignSystem/Lib (11.5.0):
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - lottie-ios (= 3.4.4)
+    - PanModal
+  - PanModal (1.2.7)
+
+DEPENDENCIES:
+  - HyperioniOS/AttributesInspector
+  - HyperioniOS/Core
+  - HyperioniOS/Measurements
+  - HyperioniOS/SlowAnimations
+  - IQKeyboardManagerSwift
+  - Kingfisher (= 6.3.1)
+  - lottie-ios (= 3.4.4)
+  - OneAppDesignSystem (= 11.5.0)
+
+SPEC REPOS:
+  https://bitbucket.org/ttbbank/one_oneapp-designsystem-ios-private-pods.git:
+    - OneAppDesignSystem
+  https://github.com/CocoaPods/Specs:
+    - HyperioniOS
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - lottie-ios
+    - PanModal
+
+SPEC CHECKSUMS:
+  HyperioniOS: 4412ec61a390caadffcaaf3364733b06e103cf63
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  lottie-ios: 8f97d3271e155c2d688875c29cd3c74908aef5f8
+  OneAppDesignSystem: 403464c1cc7b8e535cae283630e8ccc7f8dc06a2
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+
+PODFILE CHECKSUM: f6299cb0224a518149e5392b64ec639dedc0ff87
+
+COCOAPODS: 1.16.2

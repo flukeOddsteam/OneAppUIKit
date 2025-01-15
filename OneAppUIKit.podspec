@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'OneAppUIKit'
-  s.version      = '1.0.0'
+  s.version      = '0.0.1'
   s.summary      = 'OneAppUIKit, is a part of Go by One App TTB application.'
   s.homepage     = 'https://github.com/flukeOddsteam/OneAppUIKit'
   s.license      = { :type => 'MIT', :text => 'Copyright © 2021 TMB Bank Public Company Limited. All rights reserved.' }

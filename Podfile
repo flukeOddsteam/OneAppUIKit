@@ -9,7 +9,7 @@ workspace 'OneAppUIKit.xcworkspace'
 use_frameworks!
 inhibit_all_warnings!
 
-target 'OneAppiOSUIKit' do
+target 'OneAppUIKit' do
   pod 'IQKeyboardManagerSwift'
   pod 'Kingfisher', '6.3.1'
   pod 'lottie-ios', '3.4.4'
@@ -24,14 +24,6 @@ target 'OneAppiOSUIKit' do
     # Pods for testing
   end
 
-end
-
-target 'OneAppUIKit' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for OneAppUIKit
-
   target 'OneAppUIKitTests' do
     inherit! :search_paths
     # Pods for testing
@@ -39,6 +31,10 @@ target 'OneAppUIKit' do
 
   target 'OneAppUIKitUITests' do
     # Pods for testing
+  end
+
+  target 'OneAppiOSUIKit' do
+    # Pods for headder  
   end
 
 end

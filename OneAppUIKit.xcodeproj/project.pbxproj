@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FD31F67305EDD4AA35BE59C /* Pods_OneAppiOSUIKit_OneAppiOSUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64213BE611E266FB956223A5 /* Pods_OneAppiOSUIKit_OneAppiOSUIKitTests.framework */; };
 		521EE7982D37985800BEDA9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EE7972D37985800BEDA9C /* AppDelegate.swift */; };
 		521EE79A2D37985800BEDA9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EE7992D37985800BEDA9C /* SceneDelegate.swift */; };
 		521EE79F2D37985800BEDA9C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 521EE79E2D37985800BEDA9C /* Base */; };
@@ -43,10 +42,11 @@
 		521EE81E2D3798BC00BEDA9C /* KitchenSinkNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EE8052D3798BC00BEDA9C /* KitchenSinkNavigationView.swift */; };
 		521EE81F2D3798BC00BEDA9C /* KitchenSinkNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521EE8062D3798BC00BEDA9C /* KitchenSinkNavigationView.xib */; };
 		521EE8202D3798BC00BEDA9C /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EE8092D3798BC00BEDA9C /* UIKitViewController.swift */; };
+		6377B79A743DD355090D1837 /* Pods_OneAppUIKit_OneAppiOSUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FD348F5D36DAD5C7A18D8E /* Pods_OneAppUIKit_OneAppiOSUIKit.framework */; };
 		9258D61FB3399AFC7F213A58 /* Pods_OneAppUIKit_OneAppUIKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0F3E33654957224B5EB079 /* Pods_OneAppUIKit_OneAppUIKitUITests.framework */; };
-		ACFE52A59DB29A7E43179B6F /* Pods_OneAppiOSUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BDF3907CBBE55218E3C3B1 /* Pods_OneAppiOSUIKit.framework */; };
 		E2150B0B23C91D50B609E6F1 /* Pods_OneAppUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFD2F67FBDD05620EA0E8B2 /* Pods_OneAppUIKit.framework */; };
 		F4C391946E15820944E67C68 /* Pods_OneAppUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3ADD8B01981D57FC5B08F1 /* Pods_OneAppUIKitTests.framework */; };
+		FDBE2E3E13E084E4DE558957 /* Pods_OneAppUIKit_OneAppiOSUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7EC245B26C26D54F03F9C2 /* Pods_OneAppUIKit_OneAppiOSUIKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +103,9 @@
 
 /* Begin PBXFileReference section */
 		175AB16966EA78DDCAD2360E /* Pods-OneAppiOSUIKit-OneAppiOSUIKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppiOSUIKit-OneAppiOSUIKitTests.debug.xcconfig"; path = "Target Support Files/Pods-OneAppiOSUIKit-OneAppiOSUIKitTests/Pods-OneAppiOSUIKit-OneAppiOSUIKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46FD348F5D36DAD5C7A18D8E /* Pods_OneAppUIKit_OneAppiOSUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneAppUIKit_OneAppiOSUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BBEDFF5A036463083F31F0 /* Pods-OneAppUIKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppUIKitTests.release.xcconfig"; path = "Target Support Files/Pods-OneAppUIKitTests/Pods-OneAppUIKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A2C12C67E469399A6032632 /* Pods-OneAppUIKit-OneAppiOSUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppUIKit-OneAppiOSUIKit.debug.xcconfig"; path = "Target Support Files/Pods-OneAppUIKit-OneAppiOSUIKit/Pods-OneAppUIKit-OneAppiOSUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 		5140941CFC9D139B867D39AA /* Pods-OneAppUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppUIKit.debug.xcconfig"; path = "Target Support Files/Pods-OneAppUIKit/Pods-OneAppUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 		521EE7942D37985800BEDA9C /* OneAppUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneAppUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		521EE7972D37985800BEDA9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -147,14 +149,16 @@
 		59E2CCBB9F3E7BA7BA70F3CD /* Pods-OneAppiOSUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppiOSUIKit.release.xcconfig"; path = "Target Support Files/Pods-OneAppiOSUIKit/Pods-OneAppiOSUIKit.release.xcconfig"; sourceTree = "<group>"; };
 		5B3ADD8B01981D57FC5B08F1 /* Pods_OneAppUIKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneAppUIKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		634933537BADC544A5B114DC /* Pods-OneAppUIKit-OneAppUIKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppUIKit-OneAppUIKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-OneAppUIKit-OneAppUIKitUITests/Pods-OneAppUIKit-OneAppUIKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		64213BE611E266FB956223A5 /* Pods_OneAppiOSUIKit_OneAppiOSUIKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneAppiOSUIKit_OneAppiOSUIKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDFE835147B6B06A3BFD0CA /* Pods-OneAppUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppUIKit.release.xcconfig"; path = "Target Support Files/Pods-OneAppUIKit/Pods-OneAppUIKit.release.xcconfig"; sourceTree = "<group>"; };
-		76BDF3907CBBE55218E3C3B1 /* Pods_OneAppiOSUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneAppiOSUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E89C941E42E3835336AE51 /* Pods-OneAppUIKit-OneAppiOSUIKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppUIKit-OneAppiOSUIKitTests.debug.xcconfig"; path = "Target Support Files/Pods-OneAppUIKit-OneAppiOSUIKitTests/Pods-OneAppUIKit-OneAppiOSUIKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8C802CD11E4DB7C0CAE6446 /* Pods-OneAppUIKit-OneAppiOSUIKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppUIKit-OneAppiOSUIKitTests.release.xcconfig"; path = "Target Support Files/Pods-OneAppUIKit-OneAppiOSUIKitTests/Pods-OneAppUIKit-OneAppiOSUIKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		A95E3FC79CEB9A0DE30D49D5 /* Pods-OneAppUIKit-OneAppiOSUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppUIKit-OneAppiOSUIKit.release.xcconfig"; path = "Target Support Files/Pods-OneAppUIKit-OneAppiOSUIKit/Pods-OneAppUIKit-OneAppiOSUIKit.release.xcconfig"; sourceTree = "<group>"; };
 		B0E9113E74DD2F391EE58A4A /* Pods-OneAppiOSUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppiOSUIKit.debug.xcconfig"; path = "Target Support Files/Pods-OneAppiOSUIKit/Pods-OneAppiOSUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 		BC8C78030B8865E0FED2DF9F /* Pods-OneAppiOSUIKit-OneAppiOSUIKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppiOSUIKit-OneAppiOSUIKitTests.release.xcconfig"; path = "Target Support Files/Pods-OneAppiOSUIKit-OneAppiOSUIKitTests/Pods-OneAppiOSUIKit-OneAppiOSUIKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD0F3E33654957224B5EB079 /* Pods_OneAppUIKit_OneAppUIKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneAppUIKit_OneAppUIKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFD2F67FBDD05620EA0E8B2 /* Pods_OneAppUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneAppUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D8E4494D2658E3221A75D7 /* Pods-OneAppUIKit-OneAppUIKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneAppUIKit-OneAppUIKitUITests.release.xcconfig"; path = "Target Support Files/Pods-OneAppUIKit-OneAppUIKitUITests/Pods-OneAppUIKit-OneAppUIKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC7EC245B26C26D54F03F9C2 /* Pods_OneAppUIKit_OneAppiOSUIKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneAppUIKit_OneAppiOSUIKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +191,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACFE52A59DB29A7E43179B6F /* Pods_OneAppiOSUIKit.framework in Frameworks */,
+				6377B79A743DD355090D1837 /* Pods_OneAppUIKit_OneAppiOSUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				521EE7D62D37989B00BEDA9C /* OneAppiOSUIKit.framework in Frameworks */,
-				1FD31F67305EDD4AA35BE59C /* Pods_OneAppiOSUIKit_OneAppiOSUIKitTests.framework in Frameworks */,
+				FDBE2E3E13E084E4DE558957 /* Pods_OneAppUIKit_OneAppiOSUIKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +213,8 @@
 				DFFD2F67FBDD05620EA0E8B2 /* Pods_OneAppUIKit.framework */,
 				BD0F3E33654957224B5EB079 /* Pods_OneAppUIKit_OneAppUIKitUITests.framework */,
 				5B3ADD8B01981D57FC5B08F1 /* Pods_OneAppUIKitTests.framework */,
-				76BDF3907CBBE55218E3C3B1 /* Pods_OneAppiOSUIKit.framework */,
-				64213BE611E266FB956223A5 /* Pods_OneAppiOSUIKit_OneAppiOSUIKitTests.framework */,
+				46FD348F5D36DAD5C7A18D8E /* Pods_OneAppUIKit_OneAppiOSUIKit.framework */,
+				EC7EC245B26C26D54F03F9C2 /* Pods_OneAppUIKit_OneAppiOSUIKitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -228,6 +232,10 @@
 				59E2CCBB9F3E7BA7BA70F3CD /* Pods-OneAppiOSUIKit.release.xcconfig */,
 				175AB16966EA78DDCAD2360E /* Pods-OneAppiOSUIKit-OneAppiOSUIKitTests.debug.xcconfig */,
 				BC8C78030B8865E0FED2DF9F /* Pods-OneAppiOSUIKit-OneAppiOSUIKitTests.release.xcconfig */,
+				4A2C12C67E469399A6032632 /* Pods-OneAppUIKit-OneAppiOSUIKit.debug.xcconfig */,
+				A95E3FC79CEB9A0DE30D49D5 /* Pods-OneAppUIKit-OneAppiOSUIKit.release.xcconfig */,
+				76E89C941E42E3835336AE51 /* Pods-OneAppUIKit-OneAppiOSUIKitTests.debug.xcconfig */,
+				A8C802CD11E4DB7C0CAE6446 /* Pods-OneAppUIKit-OneAppiOSUIKitTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -492,6 +500,7 @@
 				521EE7B02D37985900BEDA9C /* Sources */,
 				521EE7B12D37985900BEDA9C /* Frameworks */,
 				521EE7B22D37985900BEDA9C /* Resources */,
+				D41AE46F8D72EA6563DDA5D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -698,7 +707,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneAppiOSUIKit-OneAppiOSUIKitTests/Pods-OneAppiOSUIKit-OneAppiOSUIKitTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneAppUIKit-OneAppiOSUIKitTests/Pods-OneAppUIKit-OneAppiOSUIKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		64845908BE70D90B45780C54 /* [CP] Check Pods Manifest.lock */ = {
@@ -716,7 +725,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OneAppiOSUIKit-OneAppiOSUIKitTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OneAppUIKit-OneAppiOSUIKitTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -753,11 +762,26 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OneAppiOSUIKit-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OneAppUIKit-OneAppiOSUIKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41AE46F8D72EA6563DDA5D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneAppUIKit-OneAppUIKitUITests/Pods-OneAppUIKit-OneAppUIKitUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E75B7E9C65FC1DBE9DC15B14 /* [CP] Check Pods Manifest.lock */ = {
@@ -1154,7 +1178,7 @@
 		};
 		521EE7E42D37989B00BEDA9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0E9113E74DD2F391EE58A4A /* Pods-OneAppiOSUIKit.debug.xcconfig */;
+			baseConfigurationReference = 4A2C12C67E469399A6032632 /* Pods-OneAppUIKit-OneAppiOSUIKit.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1190,7 +1214,7 @@
 		};
 		521EE7E52D37989B00BEDA9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59E2CCBB9F3E7BA7BA70F3CD /* Pods-OneAppiOSUIKit.release.xcconfig */;
+			baseConfigurationReference = A95E3FC79CEB9A0DE30D49D5 /* Pods-OneAppUIKit-OneAppiOSUIKit.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1226,7 +1250,7 @@
 		};
 		521EE7E82D37989B00BEDA9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 175AB16966EA78DDCAD2360E /* Pods-OneAppiOSUIKit-OneAppiOSUIKitTests.debug.xcconfig */;
+			baseConfigurationReference = 76E89C941E42E3835336AE51 /* Pods-OneAppUIKit-OneAppiOSUIKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1246,7 +1270,7 @@
 		};
 		521EE7E92D37989B00BEDA9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC8C78030B8865E0FED2DF9F /* Pods-OneAppiOSUIKit-OneAppiOSUIKitTests.release.xcconfig */;
+			baseConfigurationReference = A8C802CD11E4DB7C0CAE6446 /* Pods-OneAppUIKit-OneAppiOSUIKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
